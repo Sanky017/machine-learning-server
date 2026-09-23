@@ -1,0 +1,15 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# ML — install torch separately on the GPU workstation matching its CUDA version.
+# See: https://pytorch.org/get-started/locally/
+torch==2.4.1
+
+# Chemistry / featurization
+rdkit==2024.3.5
+
+# Optional, for MOF-specific structural descriptors — uncomment when needed
+# pymatgen==2024.8.9
+# ase==3.23.0

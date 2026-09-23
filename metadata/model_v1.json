@@ -1,0 +1,25 @@
+{
+  "version": "v1",
+  "trained_at_utc": "2026-09-13T15:52:06.779151+00:00",
+  "data_path": "data/train_sample.csv",
+  "n_samples": 10,
+  "feature_names": [
+    "MolWt",
+    "MolLogP",
+    "NumHAcceptors",
+    "NumHDonors",
+    "TPSA",
+    "NumRotatableBonds",
+    "RingCount",
+    "NumAromaticRings",
+    "FractionCSP3",
+    "HeavyAtomCount"
+  ],
+  "hyperparameters": {
+    "epochs": 30,
+    "lr": 0.001,
+    "batch_size": 32
+  },
+  "final_train_loss": 3.7266693115234375,
+  "device_used": "cpu"
+}

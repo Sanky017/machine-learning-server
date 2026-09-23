@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Model weights (transfer separately via scp, not git — can be large)
+trained_models/*.pt
+trained_models/*.pth
+
+# Local db / cache
+app/db/*.sqlite3
+app/db/*.db
+
+# OS
+.DS_Store
